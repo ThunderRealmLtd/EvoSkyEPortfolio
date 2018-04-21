@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EvoSky.GameManager" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="gameMode_" Type="EvoSky.AbsGameMode" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="0.8" />
+        <Point X="3.875" Y="0.8" />
+        <Point X="3.875" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="players_" />
+      <Property Name="gameMode_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvoSky.AbsPlayer" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAoEAJAAIAACAAAgAQoAAAAUAMBAEABAAABAQADAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ship_" />
+      <Property Name="currentPickUp_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvoSky.AiPlayer" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAIAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AiPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.HuPlayer" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAoAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\HuPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.AbsGameMode" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <AssociationLine Name="pickUps_" Type="EvoSky.PickUp" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.75" />
+        <Point X="3.25" Y="0.385" />
+        <Point X="8.167" Y="0.385" />
+        <Point X="8.167" Y="0.604" />
+        <Point X="9.5" Y="0.604" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEACAEABEAAAAAAAAAAAAAAEACAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsGameMode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="pickUps_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvoSky.Endless" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\Endless.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.Story" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\Story.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.AbsShip" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <AssociationLine Name="bullet_" Type="EvoSky.AbsBullet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="2.476" />
+        <Point X="8.594" Y="2.476" />
+        <Point X="8.594" Y="4" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="missile_" Type="EvoSky.AbsMissile" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="2.311" />
+        <Point X="12" Y="2.311" />
+        <Point X="12" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAgAABBAABAAAAEAAAAAQBAggwAAQA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsShip.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="bullet_" />
+      <Property Name="missile_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvoSky.DauntlasLightCruiser" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.CutlasHeavyDestroyer" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.AbsProjectile" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.AbsBullet" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.StdSlugs" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.LazerPulse" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.AbsMissile" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAACACACAAAAAAAAAAAAIAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.StdMissile" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.PhotonTorpedo" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="EvoSky.AbsMissile" ManuallyRouted="true">
+      <Path>
+        <Point X="12" Y="4.191" />
+        <Point X="12" Y="4.346" />
+        <Point X="10.648" Y="4.346" />
+        <Point X="10.648" Y="5.346" />
+        <Point X="11.5" Y="5.346" />
+        <Point X="11.5" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.PickUp" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\PickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.UpgradeTree" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <AssociationLine Name="AbsUpgrade" Type="EvoSky.AbsUpgrade" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="5.25" />
+        <Point X="1.562" Y="5.25" />
+        <Point X="1.562" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\UpgradeTree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AbsUpgrade" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvoSky.AbsUpgrade" Collapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvoSky.FireRate" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EvoSky.GameStates" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAEAAAAAAAAAAAAAIAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvoSky.PlayerMainState" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AbsPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvoSky.PlayerSubState" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIAAAAACAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\PlayerSubStates.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvoSky.PickUpType" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAACAAAAAEAAAABCAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\PickUp.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvoSky.AiPlayStyle" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAAAAACAAAAAAAAAIAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EvoSky0.3\EvoSky\AiPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

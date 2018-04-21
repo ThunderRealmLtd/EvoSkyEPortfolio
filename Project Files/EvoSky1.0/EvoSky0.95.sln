@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C91E966C-CD8B-F5B9-2797-D5C53D9BEC18}") = "EvoSky0.95", "Assembly-CSharp-firstpass.csproj", "{1F398600-253B-E414-F424-363FB7EBC9CF}"
+EndProject
+Project("{C91E966C-CD8B-F5B9-2797-D5C53D9BEC18}") = "EvoSky0.95", "Assembly-CSharp.csproj", "{0F0CC594-65DC-EDBC-8373-1B50D01089D7}"
+EndProject
+Project("{C91E966C-CD8B-F5B9-2797-D5C53D9BEC18}") = "EvoSky0.95", "Assembly-CSharp-Editor.csproj", "{46490F2D-508F-61CA-591E-DEEC4D4DD554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F398600-253B-E414-F424-363FB7EBC9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F398600-253B-E414-F424-363FB7EBC9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F398600-253B-E414-F424-363FB7EBC9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F398600-253B-E414-F424-363FB7EBC9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0CC594-65DC-EDBC-8373-1B50D01089D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0CC594-65DC-EDBC-8373-1B50D01089D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0CC594-65DC-EDBC-8373-1B50D01089D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0CC594-65DC-EDBC-8373-1B50D01089D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46490F2D-508F-61CA-591E-DEEC4D4DD554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46490F2D-508F-61CA-591E-DEEC4D4DD554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46490F2D-508F-61CA-591E-DEEC4D4DD554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46490F2D-508F-61CA-591E-DEEC4D4DD554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

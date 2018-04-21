@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoSky0.9.Plugins", "EvoSky0.9.Plugins.csproj", "{DF44FDAF-A539-9B1A-8363-28FC15758272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoSky0.9", "EvoSky0.9.csproj", "{AA6C798B-C6FE-C252-6433-3C28BD7DA0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoSky0.9.Editor", "EvoSky0.9.Editor.csproj", "{9CF9000E-31F0-7E26-1FFF-0079F4C96263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF44FDAF-A539-9B1A-8363-28FC15758272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF44FDAF-A539-9B1A-8363-28FC15758272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF44FDAF-A539-9B1A-8363-28FC15758272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF44FDAF-A539-9B1A-8363-28FC15758272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6C798B-C6FE-C252-6433-3C28BD7DA0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6C798B-C6FE-C252-6433-3C28BD7DA0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6C798B-C6FE-C252-6433-3C28BD7DA0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6C798B-C6FE-C252-6433-3C28BD7DA0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF9000E-31F0-7E26-1FFF-0079F4C96263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF9000E-31F0-7E26-1FFF-0079F4C96263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF9000E-31F0-7E26-1FFF-0079F4C96263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF9000E-31F0-7E26-1FFF-0079F4C96263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
